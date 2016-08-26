@@ -1,0 +1,38 @@
+/* reset */
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol,form,input,textarea,th,td,select{ margin: 0;padding: 0; }
+em{ font-style: normal; }
+li{ list-style:none; }
+a{ text-decoration: none; }
+img{ border: none; vertical-align: top; }
+table{ border-collapse:collapse; }
+input,textarea{ outline: none; }
+textarea{ resize: none; overflow:hidden; }
+body{ font-size: 12px; font-family: '微软雅黑'; }
+/* end reset */
+
+/* public */
+.clear{ zoom:1; }
+.clear:after{ content: ''; display:block; clear: both; }
+.fl{ float: left; }
+.fr{ float: right; }
+.gradient{
+    background: -webkit-linear-gradient(top,#ffffff,#f8f8f8);
+    background: -moz-linear-gradient(top,#ffffff,#f8f8f8);
+}
+/* end public */
+
+/* layout */
+#header{ width: 960px; height: 30px; border-radius: 0 0 6px 6px; margin:0 auto; }
+#nav{ width: 960px; height: 100px; margin: 0 auto;}
+#search{ width: 958px; height: 114px; border: 1px solid #dbdbdb; margin: 0 auto 10px; border-radius: 6px;}
+#search .bar{ width: 958px; height: 64px; border-radius: 4px; border: 1px solid #c40d0e; background: #e21c01; }
+#content{ width: 960px; margin: 0 auto;}
+#main{ width: 710px;}
+.section{ width: 318px; height: 200px; padding: 0 15px; border-radius: 6px; border: 1px solid #dbdbdb; margin-bottom: 10px;}
+.options{ width: 350px; height: 200px;}
+.main_ad{ border-radius: 6px; margin-bottom: 10px; overflow: hidden;}
+#side{ width: 240px;}
+.side_section{}
+.side_ad{}
+#footer{}
+/* end layout */
