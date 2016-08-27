@@ -261,7 +261,21 @@ text-align: center; line-height: 24px; color: #666; position: relative; cursor: 
 .activity .text span{ float:left; margin-right:4px; text-indent:2px; padding-top:4px;}
 .activity .text p{ line-height:18px; color:#999;}
 
-.calendar{ padding:0 25px; width: 298px;}
-.calendar h3{ height: 34px; background: url("../img/adorn.gif") repeat-x;}
-.calendar ol li{ width: 40px; height: 40px; margin: 0 2px 2px 0; background: #ededed; float: left;}
+.calendar{ padding:0 25px; width: 296px; position: relative; }
+.calendar h3{ height: 34px; line-height: 34px; word-spacing: 8px; text-align: center; background: url("../img/adorn.gif") repeat-x;}
+.calendar h3 span{ font-size: 14px; font-family: arial;}
+.calendar ol li{ width: 40px; height: 40px; margin: 0 2px 2px 0; background: #ededed; float: left; text-align: center; line-height: 40px;
+font-weight: bold; color: #666666; position: relative;}
+.calendar .normal{ background: #f8f8f8; color: #ccc;}
+.calendar .active{ border: 2px solid #d30408; width: 36px; height: 36px; position: absolute; top: 0; left: 0;}
+.calendar .img{ width: 40px; height: 40px; position: absolute; top: 0; left: 0;}
+
+.today_info{ width: 294px; height: 84px; padding: 10px; border: 1px solid #c0c0c0; position: absolute; top: 120px; left: 240px; background: white;
+box-shadow: 4px 4px 0 rgba(0,0,0,0.20)}
+.today_info img{ width: 80px; height: 80px; float: left; border: 2px solid #dbdbdb;}
+.today_info .text{ width: 200px; float: right;}
+.today_info .text h4{ font-size: 12px;color: #333;}
+.today_info .text strong{ color: #ccc; font-size: 16px;}
+.today_info .text p{ color: #999; line-height: 20px;}
+.today_info span{ width: 8px; height: 14px; position: absolute; background: url("../img/adorn.gif") no-repeat 0 -48px; top: 46px;left: -8px;}
 /* end layout */
