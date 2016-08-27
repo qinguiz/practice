@@ -1,5 +1,5 @@
 /* reset */
-body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol,form,input,textarea,th,td,select{ margin: 0;padding: 0; }
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol,form,input,textarea,th,td,select{ margin: 0; padding: 0; }
 em{ font-style: normal; }
 li{ list-style:none; }
 a{ text-decoration: none; }
@@ -22,12 +22,12 @@ body{ font-size: 12px; font-family: '微软雅黑'; }
 /* end public */
 
 /* layout */
-#header,#nav,#content{width:960px; margin: 0 auto; }
+#header,#nav,#content{ width:960px; margin: 0 auto; }
 #search,.section,.side_section,#footer,.ad_border{ border: 1px solid #dbdbdb; border-radius: 6px; }
 #search,.side_section,.main_ad,.side_ad,.ad_border{ margin-bottom: 10px; }
 
 #header{ height: 30px; border-radius: 0 0 6px 6px; }
-#nav{ height: 100px; }
+#nav{ height: 100px; position: relative; }
 #search{ width: 958px; height: 114px; margin: 0 auto 10px; }
 #search .bar{ width: 958px; height: 64px; border-radius: 4px; border: 1px solid #c40d0e; background: #e21c01; }
 #main{ width: 710px; }
@@ -56,4 +56,33 @@ body{ font-size: 12px; font-family: '微软雅黑'; }
 #header .link a:hover{}
 #header .link .icon1{  }
 #header .link .icon2{ background-position: 0 -27px;}
+
+#nav ul{ position: absolute; top: 10px; }
+#nav li{ float:left}
+#nav li a{ display: block; width: 66px; padding-top: 50px; text-align: center; background: url("../img/nav_bg.png") no-repeat;}
+#nav .nav_1{ left: 11px;}
+#nav .nav_2{ right:11px;}
+#nav h1{ width: 223px; height: 62px; margin: 0 auto; position: relative; top: 10px; }
+
+#nav .bg1{ background-position: 0 0;}
+#nav .bg2{ background-position: -66px 0;}
+#nav .bg3{ background-position: -132px 0;}
+#nav .bg4{ background-position: -198px 0;}
+#nav .bg5{ background-position: -264px 0;}
+#nav .bg6{ background-position: -330px 0;}
+#nav .bg7{ background-position: -396px 0;}
+#nav .bg8{ background-position: -462px 0;}
+#nav .bg9{ background-position: -528px 0;}
+#nav .bg10{ background-position: -594px 0;}
+
+#nav .bg1:hover{ background-position: 0 -70px;}
+#nav .bg2:hover{ background-position: -66px -70px;}
+#nav .bg3:hover{ background-position: -132px -70px;}
+#nav .bg4:hover{ background-position: -198px -70px;}
+#nav .bg5:hover{ background-position: -264px -70px;}
+#nav .bg6:hover{ background-position: -330px -70px;}
+#nav .bg7:hover{ background-position: -396px -70px;}
+#nav .bg8:hover{ background-position: -462px -70px;}
+#nav .bg9:hover{ background-position: -528px -70px;}
+#nav .bg10:hover{ background-position: -594px -70px;}
 /* end layout */
