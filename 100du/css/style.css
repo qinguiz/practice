@@ -316,4 +316,14 @@ position: relative;}
 .bbs ol .active img{ display: block; position: absolute; top: 10px; left: 10px;}
 .bbs ol .active em{ display: block; position: absolute; color: white; font-weight: bold; font-size: 25px; bottom: -6px; right: 5px;}
 
+.hot_area{ width: 318px;}
+.hot_area li{ float: left; width: 78px; height: 78px; padding: 0 2px 2px 0; position: relative;}
+.hot_area img{ width: 78px; height: 78px;}
+.hot_area .area1{ width: 77px; height: 78px;}
+.hot_area .area1 img{ width: 77px; height: 78px;}
+.hot_area .area2{ width: 156px; height: 78px;}
+.hot_area .area2 img{ width: 156px; height: 78px;}
+.hot_area .info p{ width: 144px; height: 66px; position: absolute; background: rgba(0,0,0,0.5); color: white; padding: 12px 0 0 12px;
+line-height: 18px;}
+
 /* end layout */
