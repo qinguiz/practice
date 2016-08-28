@@ -41,7 +41,7 @@ body{ font-size: 12px; font-family: '微软雅黑'; }
 #footer{ width: 958px; height: 78px; margin: 0 auto; background: #f9f9f9; }
 
 .options .nav{ position: relative; height: 34px;}
-.options .nav li{ width: 172px; height: 33px; line-height: 33px; text-align: center; position: relative; border: 1px solid #dbdbdb; border-bottom: none; border-radius: 6px 6px 0 0;}
+.options .nav li{ width: 172px; height: 33px; line-height: 33px; text-align: center; position: relative; cursor: pointer; border: 1px solid #dbdbdb; border-bottom: none; border-radius: 6px 6px 0 0;}
 .options .nav .active{ width: 172px; height: 34px; background: white;}
 .options .con{ width: 318px; border: 1px solid #dbdbdb; padding: 0 15px; border-radius: 0 0 6px 6px;}
 
@@ -137,7 +137,7 @@ font-family: arial; color: #d90000; font-weight: normal;}
 .nav .triangle_down_gray{}
 
 .hot_list{ padding-top: 10px; position: relative; height: 374px;}
-.hot_list li{ width: 318px; height: 108px; margin-bottom: 6px; background: url("../img/hot_list_li_bg.gif")}
+.hot_list li{ width: 318px; height: 108px; margin-bottom: 6px; background: url("../img/hot_list_li_bg.gif");}
 .hot_list .img{ float: left; width: 106px; height: 86px; }
 .hot_list .img a{ display: block; width: 104px; height: 84px; border: 1px solid #e6e6e6;}
 .hot_list .img a:hover{}
@@ -271,7 +271,7 @@ font-weight: bold; color: #666666; position: relative;}
 .calendar .active{ border: 2px solid #d30408; width: 36px; height: 36px; position: absolute; top: 0; left: 0;}
 .calendar .img{ width: 40px; height: 40px; position: absolute; top: 0; left: 0;}
 
-.today_info{ width: 294px; height: 84px; padding: 10px; border: 1px solid #c0c0c0; position: absolute; top: 120px; left: 240px; background: white;
+.today_info{ display: none; width: 294px; height: 84px; padding: 10px; border: 1px solid #c0c0c0; position: absolute; top: 120px; left: 240px; background: white;
 box-shadow: 4px 4px 0 rgba(0,0,0,0.20); z-index: 2;}
 .today_info img{ width: 80px; height: 80px; float: left; border: 2px solid #dbdbdb;}
 .today_info .text{ width: 200px; float: right;}
@@ -323,7 +323,7 @@ position: relative;}
 .hot_area .area1 img{ width: 77px; height: 78px;}
 .hot_area .area2{ width: 156px; height: 78px;}
 .hot_area .area2 img{ width: 156px; height: 78px;}
-.hot_area .info p{ width: 144px; height: 66px; position: absolute; background: rgba(0,0,0,0.5); color: white; padding: 12px 0 0 12px;
-line-height: 18px;}
+.hot_area p{ width: 144px; height: 66px; position: absolute; top: 0; left: 0; background: rgba(0,0,0,0.5); color: white; padding: 12px 0 0 12px;
+    line-height: 18px;}
 
 /* end layout */
