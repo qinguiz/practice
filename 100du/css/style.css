@@ -249,6 +249,7 @@ text-align: center; line-height: 24px; color: #666; position: relative; cursor: 
 .recommend{ width: 348px; float: right;}
 .recommend .new_title{ background-position:right -70px; }
 
+.activity{ height: 498px;}
 .activity .con{ background:url(../img/activity_bg.gif) no-repeat;}
 .activity .info{ padding:16px 24px 0; height:104px; }
 .activity .info .img{ float: left; width: 84px; height: 84px; position: relative; }
@@ -271,11 +272,48 @@ font-weight: bold; color: #666666; position: relative;}
 .calendar .img{ width: 40px; height: 40px; position: absolute; top: 0; left: 0;}
 
 .today_info{ width: 294px; height: 84px; padding: 10px; border: 1px solid #c0c0c0; position: absolute; top: 120px; left: 240px; background: white;
-box-shadow: 4px 4px 0 rgba(0,0,0,0.20)}
+box-shadow: 4px 4px 0 rgba(0,0,0,0.20); z-index: 2;}
 .today_info img{ width: 80px; height: 80px; float: left; border: 2px solid #dbdbdb;}
 .today_info .text{ width: 200px; float: right;}
 .today_info .text h4{ font-size: 12px;color: #333;}
 .today_info .text strong{ color: #ccc; font-size: 16px;}
 .today_info .text p{ color: #999; line-height: 20px;}
 .today_info span{ width: 8px; height: 14px; position: absolute; background: url("../img/adorn.gif") no-repeat 0 -48px; top: 46px;left: -8px;}
+
+.recommend .pic{ width: 294px; padding: 12px; height: 156px; background: #f8f8f8; position: relative; margin: 0 auto; border-radius: 6px;}
+.recommend .pic ul{ width: 233px; height: 133px;}
+.recommend .pic ul li{ width: 223px; height: 133px; border: 1px solid white; position: absolute; top: 12px; left: 12px;}
+.recommend .pic ul img{ width: 223px; height: 133px;}
+.recommend .pic ul a{}
+.recommend .pic ol{ position: absolute; top: 12px; right: 12px;}
+.recommend .pic ol li{ width: 54px; height: 30px; border: 3px solid #ffffff; margin-bottom: 13px;}
+.recommend .pic ol .active{ border: 3px solid #d6191d;}
+.recommend .pic ol img{ width: 54px; height: 30px;}
+.recommend .pic p{ color: #000000; font-size: 12px; position: absolute; bottom: 12px; left: 12px; font-weight: bold;}
+
+.recommend .list{ width: 318px; height: 224px; position: relative; margin: 8px auto 16px; }
+.recommend .list ul{ width: 318px; height: 224px;}
+.recommend .list li{ padding-left: 32px; background: url("../img/header_link_bg.gif") no-repeat 11px 16px;padding-top: 16px; height: 11px; line-height: 11px;
+position: relative;}
+.recommend .list .another{ background-position: 11px -14px;}
+.recommend .list li a{ display: block; width: 204px; float: left; border-left: 1px solid #dfdfdf; padding-left: 6px; color: #454545;}
+.recommend .list li span{ display: block; position: absolute; right: 12px; font-family: arial; bottom: 2px; color: #999999;}
+
+.bbs ol{ padding-bottom: 17px;}
+.bbs ol li{ height: 30px; line-height: 30px; background: #f1f1f1; border-radius: 4px; margin-bottom: 3px; position: relative;}
+.bbs ol strong{ float: left; font-size: 12px; color: #d80000; text-indent: 9px; padding-right: 21px;}
+.bbs ol a{ float: left; color: #333333;}
+.bbs ol b{ float: right; font-weight: normal; color: #666666; padding-right: 22px;}
+.bbs ol span{ display: none;}
+.bbs ol img{ display: none;}
+.bbs ol em{ display: none;}
+
+.bbs ol .active{ height: 70px; background: #d90000;}
+.bbs ol .active strong{ display: none;}
+.bbs ol .active a{ font-weight: bold; font-size: 14px; color: white; position: absolute; top: 6px; left: 70px;}
+.bbs ol .active b{ display: none;}
+.bbs ol .active span{ display: block; position: absolute; color: white; top: 32px; left: 70px;}
+.bbs ol .active img{ display: block; position: absolute; top: 10px; left: 10px;}
+.bbs ol .active em{ display: block; position: absolute; color: white; font-weight: bold; font-size: 25px; bottom: -6px; right: 5px;}
+
 /* end layout */
