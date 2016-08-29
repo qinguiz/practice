@@ -8,36 +8,50 @@
 <body>
 <div id="header" class="gradient">
     <div id="top">
-        <h1>XIAMI.COM</h1>
+        <h1><a href="#">XIAMI.COM</a></h1>
         <div class="nav">
-            <a href="#">发现音乐</a>
+            <a href="#" class="active">发现音乐</a>
             <a href="#">我的音乐</a>
         </div>
         <div class="subnav">
-            <a href="#">精选集</a>
-            <a href="#">电台</a>
-            <a href="#">音乐人</a>
-            <a href="#">APP</a>
+            <a href="#" class="first">精选集</a>
+            <a href="#" class="middle">电台</a>
+            <a href="#" class="middle">音乐人</a>
+            <a href="#" class="last">APP</a>
         </div>
         <div class="search">
-            <form action="#">
-                <input type="text">
+            <form class="form" action="#">
+                <input class="text" placeholder="音乐搜索，找人..." type="text">
+                <input class="icon submit" type="submit" value="">
             </form>
         </div>
         <div class="reg"><a href="#">立即注册</a></div>
-        <div class="login"><a class="first" href="#">立即登陆 <b class="icon weibo"></b><b class="icon qq"></b></a></div>
+        <div class="login">
+            <a class="first" href="#">立即登陆</a>
+            <a class="middle" href="#"><b class="icon weibo"></b></a>
+            <a class="last" href="3"><b class="icon qq"></b></a></a>
+        </div>
     </div>
 </div>
 <div id="nav">
-    <div class="subnav"></div>
+    <div class="subnav">
+        <div class="nav">
+            <a href="#">热门</a>
+            <a href="#">排行榜</a>
+            <a href="#">专辑</a>
+            <a href="#">艺人</a>
+            <a href="#">风格</a>
+            <a href="#">阿里音乐排行榜</a>
+        </div>
+    </div>
 </div>
 <div id="main">
     <div class="gap">
         <div class="wrapper">
-            <div class="section">
+            <div class="section fl">
                 <div class="container"></div>
             </div>
-            <div class="sidebar">
+            <div class="sidebar fr">
                 <div class="primary">
                     <div id="login_mobile"></div>
                     <div id="login_thirdparty"></div>
@@ -47,7 +61,7 @@
                     <div class="scene"></div>
                 </div>
                 <div class="secondary">
-                    <div id="down"></div>
+                    <div id="down"><img src="img/ad.png" alt=""></div>
                     <div id="group"></div>
                 </div>
             </div>
