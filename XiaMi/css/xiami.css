@@ -36,7 +36,7 @@ padding: 15px 15px 0; position: relative;}
 #login_thirdparty{ width:300px; height: 79px; border: 1px solid #ececec; border-radius: 4px 4px 0 0; background: #ffffff;}
 #login_xiami{ width: 300px; height: 45px; border: 1px solid #ececec; background: #fcfcfc; border-radius:  0 0 4px 4px; margin-top: -1px; margin-bottom: 20px;}
 #report{ width: 300px; height: 52px; background: #fff; border-radius: 4px; border: 1px solid #ececec; margin-bottom: 20px;}
-#listenMod{ width: 300px; height: 486px; border: 1px solid #ececec; border-radius: 4px; background: #fff; margin-bottom: 20px;}
+#listenMod{ width: 270px; height: 486px; border: 1px solid #ececec; border-radius: 4px; background: #fff; margin-bottom: 20px;}
 #scene{ width: 300px; height: 228px; border-radius: 4px; border: 1px solid #ececec; background: #fff;}
 #secondary{ width: 302px; height: 486px;}
 #down{ width: 300px; height: 270px; border: 1px solid #ececec; border-radius: 4px; margin-bottom: 20px;}
@@ -57,6 +57,7 @@ background: #fa871c; margin-right: -1px;}
 #top .subnav a.first{ border: 1px solid #db6b15; border-radius: 4px 0 0 4px;}
 #top .subnav a.middle{ border: 1px solid #db6b15; }
 #top .subnav a.last{ border: 1px solid #db6b15; border-radius: 0 4px 4px 0;}
+#top .subnav a.active{ background: #de6902;}
 
 #top .search{ width: 245px; height: 60px; float: left;}
 #top .search .form{ width: 230px; height: 30px; position: relative; top: 15px;}
@@ -79,6 +80,8 @@ border: none;}
 #nav .subnav .nav a{ color: #382c40; padding-right: 33px;}
 #nav .subnav .nav a.active{ color: #f77b19;}
 
+#main .container { width: 738px; height: 171px; overflow: hidden; position: relative;}
+#main .container .lunbo{ position: absolute;}
 #main .container a{ display: block; width: 738px; height: 171px;}
 #main .container img{ width: 738px; height: 171px;}
 #slider .action{ width: 65px; height: 13px; padding-left: 5px; padding-top: 5px; background: rgba(0,0,0,0.05); border-radius: 100px;position: absolute; top: 157px; right: 25px;}
@@ -188,6 +191,34 @@ position: absolute; left: 25px; bottom: 15px;}
 #personal .action { width: 68px; height: 24px; background: #3a3935;  text-align: center; line-height: 24px; border-radius: 4px; position: absolute;
  bottom: 10px; left: 10px; }
 #personal .action a{ color: white;}
+
+#login_thirdparty{ position: relative;}
+#login_thirdparty span{ float: left; position: absolute; left: 15px; top: 34px; }
+#login_thirdparty a{ display: block; width: 40px; height: 40px; position: absolute;}
+#login_thirdparty .weibo{ top: 23px ; left: 190px;}
+#login_thirdparty .qq{ left: 245px; top:23px;}
+
+#login_xiami{ position: relative;}
+#login_xiami .login{ display: block; width: 44px; height: 30px; line-height: 30px; text-align: center;  color: white; background: #ff6600; border-radius: 4px;
+position: absolute; top: 8px; left:15px;}
+#login_xiami span{ position: absolute; top: 17px; right: 16px;}
+#login_xiami span a{ color: #ff6600; margin-left: -3px;}
+
+#listenMod{ padding: 0 15px;}
+#listenMod h2{ height: 40px; width: 270px; line-height: 40px; font-size: 14px; border-bottom: 1px solid #eaeaea;}
+#itemCover img{ width: 270px; height: 270px;}
+#itemCover .img{ width: 270px; height: 270px; margin-top: 20px;}
+#listenMod .item-util{ width: 270px;height: 40px; background: #ebebeb;}
+#listenMod .item-util .collect{ width: 134px; height: 40px;}
+#listenMod .item-util .collect img{ width: 134px; height: 40px; }
+#listenMod .item-util .shar{  width: 134px; height: 40px;}
+#listenMod .item-util .shar img{  width: 134px; height: 40px;}
+
+#listenWrap .item-song{ height: 64px; border-bottom: 1px solid #ebebeb;}
+#listenWrap .item-song .name{ padding-top: 15px; color: #575f61;}
+#listenWrap .item-song p{ padding-top: 5px; color:#999999;}
+#listenWrap .itemComment{ width: 270px; height: 30px; background: #ff6600; border-radius: 6px; text-align: center; line-height: 30px; margin-top: 11px;}
+#listenWrap .itemComment a{ color: white;}
 
 #footer .wrapper{ width: 1100px; margin: 0 auto; padding-top: 20px;}
 #footer .content{ width: 1095px; padding-top: 5px;  }
