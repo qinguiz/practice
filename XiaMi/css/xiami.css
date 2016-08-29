@@ -188,4 +188,30 @@ position: absolute; left: 25px; bottom: 15px;}
 #personal .action { width: 68px; height: 24px; background: #3a3935;  text-align: center; line-height: 24px; border-radius: 4px; position: absolute;
  bottom: 10px; left: 10px; }
 #personal .action a{ color: white;}
+
+#footer .wrapper{ width: 1100px; margin: 0 auto; padding-top: 20px;}
+#footer .content{ width: 1095px; padding-top: 5px;  }
+#footer .content .sitemap { float: left; width: 490px; height: 160px; text-indent: 7px;}
+#footer .content .sitemap dl{ float: left; margin-right: 20px;}
+#footer .content .sitemap dl dt{ color: #666994; font-weight: bold; }
+#footer .content .sitemap dl dd{ color: #949494; font-weight: normal;}
+#footer .content .cooperation{ float: right; width: 431px; height: 185px; margin-bottom: 23px;}
+#footer .content .cooperation img{ width: 431px; height: 185px;}
+
+#footer .ali_group{ clear: both; height: 72px; border-top: 1px dotted #9a9a9a; overflow: hidden; }
+#footer .ali_group a{ display: block; float: left; color: #9b9b9b; padding: 0 10px; border-left: 1px solid #9a9a9a; margin: 5px 0px 5px -1px; }
+#footer .extra .sns{ height: 16px;  font-size: 14px; line-height: 16px;}
+#footer .extra .sns a { display: inline-block; margin: 2px;}
+#footer .copyright{ float: right;}
+#footer .extra .sns .sina{ display: block;width: 16px; height: 16px; background: url("../img/sync-ico_v15.gif") no-repeat 0 -16px;}
+#footer .extra .sns .renren{ display: block;width: 16px; height: 16px; background: url("../img/sync-ico_v15.gif") no-repeat 0 -80px; }
+#footer .extra .sns .zoneq{ display: block;width: 16px; height: 16px; background: url("../img/sync-ico_v15.gif") no-repeat 0 -272px; }
+#footer .extra .sns .txwb{ display: block;width: 16px; height: 16px; background: url("../img/sync-ico_v15.gif") no-repeat 0 -144px; }
+#footer .extra .sns .doub{ display: block;width: 16px; height: 16px; background: url("../img/sync-ico_v15.gif") no-repeat 0 -208px; }
+
+#footer .extra .sns .sina:hover{ display: block;width: 16px; height: 16px; background: url("../img/sync-ico_v15.gif") no-repeat 0 0px;}
+#footer .extra .sns .renren:hover{ display: block;width: 16px; height: 16px; background: url("../img/sync-ico_v15.gif") no-repeat 0 -64px; }
+#footer .extra .sns .zoneq:hover{ display: block;width: 16px; height: 16px; background: url("../img/sync-ico_v15.gif") no-repeat 0 -256px; }
+#footer .extra .sns .txwb:hover{ display: block;width: 16px; height: 16px; background: url("../img/sync-ico_v15.gif") no-repeat 0 -128px; }
+#footer .extra .sns .doub:hover{ display: block;width: 16px; height: 16px; background: url("../img/sync-ico_v15.gif") no-repeat 0 -192px; }
 /* end layout */
