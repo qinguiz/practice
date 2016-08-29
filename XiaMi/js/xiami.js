@@ -45,9 +45,11 @@ $(function(){
         var iNow = 0;
         var iH = 0;
         var timer = null;
+        var inum = 0;
         var aA = oLunbo.find('a');
         var arrA = $('#slider a');
         iH = oLunbo.find('a').height();
+
         function doMove(num){
             iNow += num;
             if(Math.abs(iNow) > aA.length -1){
@@ -63,10 +65,40 @@ $(function(){
             }
             arrA.eq(Math.abs(iNow)).addClass('current')
         }
+        arrA.mouseover(function(){
+            clearInterval(timer);
+        });
+        arrA.mouseout(function(){
+            autoPlay();
+        });
+        arrA.each(function(index){
+            $(this).click(function(){
+                arrA.removeClass('current');
+                $(this).addClass('current');
+                inum = arrA.eq($(this));
 
+                doMove2(-index,0);
+                function doMove2(num,iNow){
+                    iNow += num;
+                    if(Math.abs(iNow) > aA.length -1){
+                        iNow = 0;
+                    }else if(iNow > 0){
+                        iNow = -(aA.length - 1 )
+                    }
+                    oLunbo.stop().animate({'top':iH*iNow},1200);
+                    //arrA.removeClass('current');
+                    if( arrA[Math.abs(iNow)]){
+                        arrA.removeClass('current')
+
+                    }
+                    arrA.eq(Math.abs(iNow)).addClass('current')
+                }
+                console.log($(this).index())
+            })
+        });
         function autoPlay(){
             timer = setInterval(function(){
-                doMove(-1)
+                doMove(-1);
             },2000)
         }
         autoPlay();
