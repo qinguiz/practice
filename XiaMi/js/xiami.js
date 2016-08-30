@@ -104,4 +104,54 @@ $(function(){
         autoPlay();
 
     })();
+
+    (function(){
+        var oPrev = $('#album .prev');
+        var oNext = $('#album .next');
+        var oCon = $('#album .content_block');
+        var aImg = oCon.children();
+        var iW = oCon.find('.album').width();
+        var iNow = 0;
+        function doMove(num){
+            iNow += num;
+            if(Math.abs(iNow) > aImg.length - 5){
+                iNow = 0;
+            } else if( iNow > 0){
+                iNow = -(aImg.length - 5)
+            }
+            oCon.stop().animate({'left':iW*iNow},1200);
+            console.log(iNow)
+        }
+        oPrev.click(function(){
+            doMove(1);
+        })
+        oNext.click(function(){
+            doMove(-1);
+        })
+    })();
+
+    (function(){
+        var oPrev = $('#collects .prev');
+        var oNext = $('#collects .next');
+        var oCon = $('#collects .content_block');
+        var aImg = oCon.children();
+        var iW = oCon.find('.album').width();
+        var iNow = 0;
+        function doMove(num){
+            iNow += num;
+            if(Math.abs(iNow) > aImg.length - 5){
+                iNow = 0;
+            } else if( iNow > 0){
+                iNow = -(aImg.length - 5)
+            }
+            oCon.stop().animate({'left':iW*iNow},1200);
+            console.log(iNow)
+        }
+        oPrev.click(function(){
+            doMove(1);
+        })
+        oNext.click(function(){
+            doMove(-1);
+        })
+    })();
 });
