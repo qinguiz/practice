@@ -2,6 +2,7 @@
  * Created by Administrator on 2016/8/29.
  */
 $(function(){
+
     (function(){
         var oNav = $('#top .nav');
         var oA = oNav.find('a');
@@ -105,6 +106,7 @@ $(function(){
 
     })();
 
+    //切换a
     (function(){
         var oPrev = $('#album .prev');
         var oNext = $('#album .next');
@@ -130,6 +132,7 @@ $(function(){
         })
     })();
 
+    //切换b
     (function(){
         var oPrev = $('#collects .prev');
         var oNext = $('#collects .next');
@@ -152,6 +155,18 @@ $(function(){
         })
         oNext.click(function(){
             doMove(-1);
+        })
+    })();
+
+    //展开内容
+    (function(){
+        var aLi = $('#charts ul li')
+        aLi.each(function(){
+
+            $(this).mouseover(function(){
+                aLi.removeClass('active');
+                $(this).addClass('active');
+            })
         })
     })();
 });
